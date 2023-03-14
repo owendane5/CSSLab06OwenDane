@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tilt Warp', cursive;
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+main section {
+    height: 45vw;
+}
+
+main section:nth-of-type(1) {
+    background-color: #F4442E;
+}
+
+main section:nth-of-type(2) {
+    background-color: #FC9E4F;
+}
+
+main section:nth-of-type(3) {
+    background-color: #EDD382;
+}
+
+footer {
+    background-color: #020122;
+}
+
+
+/* LAB 6 - START HERE */
+
+/* Step One - recreate the layout featured in the lab instructions using floats and clear 
+
+ /* 1.) use floats to align the section elements side by side */
+
+/* 3.) return to the section style rule and set section elements to 33.3% width */
+
+/* Step Two - move footer outside of the main element and recreate he layout, ensuring that main element has a height */
+
+
+
+/* !!Commented out lines are for the float steps!! */
+
+
+.sectionOne {
+    /* float: left; */
+    /* width: 33.33%; */
+}
+
+.sectionTwo {
+    /* float: left; */
+    /* width: 33.33%; */
+}
+
+.sectionThree {
+    /* float: right; */
+    /* width: 33.33%; */
+}
+
+/*2.) use the clear property to fix the footer position */
+footer {
+    /* clear: both; */
+    /* bottom: 0; */
+    /* height: 5rem; */
+}
+
+/*Step Three - with the footer still outside of main, recreate the layout using Flexbox*/
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main section {
+    width: 100%;
+}
+
+footer {
+    bottom: 0;
+    height: 5rem
+}
+
+/* Bonus Challenge #1 Vertically align the text using flexbox - + 1 mark */
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bonus Challenge #2 - vertically align the text without using flexbox - + 1 mark/ */
